@@ -1,0 +1,34 @@
+<h1>.:Stock prediction applcation</h1>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+<div class ="image">
+  <img src="https://cdn.pixabay.com/photo/2016/04/25/07/32/letter-n-1351334_340.png" style="width:100px;height:100px">
+  <h1>hello,Rizwana</h1>
+</div>
+<input id="box" type="text"name=""placeholder="Infosys">
+<a href="stock/*"><i style="font-size:35px;" class="fa fa-arrow circle-left"></i></a>
+<h4 style="text-align:center;">Past Searches</h4>
+<div id="hey">
+  <table style="width:1200px;">
+    <tr>
+      <th *ngFor="let n of this.stockservices.content">{{n.months}}</th>
+    </tr>
+    <tr>
+      <td *ngFor="let n of this.stockservices.content">{{n.prices}}</td>
+    </tr>
+  </table>
+  <h3>stocks in Rs</h3>
+</div>
+<div id="heyy">
+  <table style="width:1200px;">
+    <tr>
+      <th *ngFor="let m of this.stockservices.content">{{m.months}}</th>
+    </tr>
+    <tr>
+      <td *ngFor="let m of this.stockservices.content">{{m.prices}}</td>
+    </tr>
+  </table>
+  <h3>stocks in Rs</h3>
+</div>
